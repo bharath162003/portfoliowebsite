@@ -1,0 +1,163 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Code</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="navbar-container container">
+        <div>
+          <h1 class="navbar-brand">Bharathkumar M</h1>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#about">About</a></li>
+          <li><a href="#my-works">Portfolio</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="home-content" id="home-page">
+      <div class="name">
+        <h1>Hi, I'm Bharath</h1>
+        <p>A Web Developer in training.</p>
+        <a href="BHARATHKUMAR-Resume.pdf" class="button">Download CV</a>
+      </div>
+      <div class="angle-down-icon">
+        <a href="#about"><i class="fas fa-angle-down"></i></a>
+      </div>
+    </div>
+  </header>
+  <section class="about-me" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="left-content">
+          <div>
+            <h1 class="about-heading">About Me</h1>
+          </div>
+          <img src="https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png" alt="image" />
+          <p>
+            I am 20 year old, B.TECH-IT student studied at University College of Engineering-BIT Campus, Trichy.
+            I really enjoy solving problems as well as making things pretty and easy to use. I can't stop learning new
+            things; the more, the better.
+          </p>
+          <div class="work-arrow">
+            <p>
+              <a href="#my-works">Check out my work <i class="fas fa-arrow-down"></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="skills">
+          <div class="right-content">
+            <div>
+              <h1 class="skills-heading">My Skills</h1>
+            </div>
+            <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>HTML</span>
+                </div>
+                <div class="progress-line"><span class="html"></span></div>
+                <div class="bar">
+                  <div class="info">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line"><span class="css"></span></div>
+                
+                    <div class="bar">
+                      <div class="info">
+                        <span>JAVASCRIPT</span>
+                      </div>
+                      <div class="progress-line"><span class="javascript"></span></div>
+                      <div class="bar">
+                        <div class="info">
+                          <span>PHP</span>
+                        </div>
+                        <div class="progress-line"><span class="c"></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="work-arrow-2">
+              <p>
+                <a href="#my-works">Explore my additional Skills <i class="fas fa-arrow-down"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="my-works">
+    <div class="portfolio">
+      <div class="proj-heading">
+        <h1>Additional Skills</h1>
+      </div>
+      <div class="portfolio-content container">
+        <div class="proj-1">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATQAAACjCAMAAAAzSxLiAAAA81BMVEX/////zwDrXgMAAAD/1QD/0QDrXADqUwD/zADtwACBaQDqVgDqTwDrWgD50cHxxADsaSf4zLntbid8ZADudjrkuQD/1wDqTAD/77z63tLtcTH62sztdT786+L98On/8cT/2E3/++3ufEb/5I71tpz//fb3w67vg1H/5pbzkQKlhgDIogDzon//4oT/22L/4Hj/9ND2vKXxk2r/1C7/+OHvglD/7LH/6KD3pALtbQPwewP8vwDyiAJuWQDynHf0q436swHwjF//217/1kL4qQHypIf/4HtSQwD/0yr1mQIaFQBIOwCykACNcgAvJgCXegDTqwDGm6+LAAAJw0lEQVR4nO2d+1vayBqATQoJ7WSoUAoqgoignoo30LrnUlz0tKe73e3u///XnMwlZMJlZkgmTnj83p8QMI++z1y++ea2swMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC8Mjq1wejswMUoBLuN2ei22s36zOOjh8urSdlxKhXHKU+erh/27kz8rYWg+ngYBD7CGHscHMrzA3822E/7zJvzpwrBESFvPJ8cDU3+8Tbo3t4TX+4qPIwCNK5t/Mzh3pWzoCtprvdwnMO/8lLU+sEaYbE43x+3N3nmzdV6YbG43ue8/qd86X5FvtxY5C2o32o+c/jgKI1xb87l9hW37jhAnoYy5s1HjxrPHJ7oKmPF7Xq7tA3HgU4hE7QhNFA99FxdLxe9XW9RpzDYUBkrbW5V9sy98qbKaGl7eKn/OSP7dV+7Yia0BbO1sdtxL4Uyqu37zUv+72kZtTYvZhzsrwlAPqdURrVdvuz/n4JO3U+rjBa28YpnDp8yOAutTQreIdRStGYJUL2z+My7TfrM1dqObLjQ5bGVqjUTwcFCrLuXVRmxdmLHhw7jIKuyEK+VCHUfDDgLrV3ZcqLiPktzJtASIt1LI85Caz1rWqQcIjPOXDf4Gj3zmyFnobVnm27W0TfmLLTGy5qpckat9azqWcm9QWehNTqoOjHoLLT2ZNvRImND7VlEq5YtpF1p7ZttS0kGJvrNpLX9G8POQmuFGom2W6adubheMu0stFaggWhXP3WmDfp32bw0xylOrugw49hplbNfcihoIT3briIGhjuBEPyvfJwVplnrmm/QXFzJpXISa8VIeWxR5ST0bPsi1IxHG673z/ycOZU928ZCXPM9p/9rXpWTYttYTr1AM09nBegLcgjR/HxCtBjbzgZGx+mUnAtaAYoa3sKC5pTtOjs136Ll2nUyLHegBznEaP/Nu6A5jtUsbkcyGMBkFV+iCJF3ok/w0ifRd7GjklYmrHtj6cNVVGwumfwq6QYOG43GgWDNq4dvHJIX/fBFAy9+ssu+i/+jrJ0fQ94KYspvyTtrPlwtzeaUnre2G/B2yedtocnz6fqWuuf6dNHoeG7N84fCs5AqsC2/fRPyRVBb+kLeeV+ef/hB6d1iV7C/fgTFpFVFaTUuDffJi878d/GU/DyPXZSVc8lL6cOCtHdKaRbr5+P62imR5ga0qPWjohbQhQhYt3aakXZuTZqk75RJY0WtyosaPiM/3fJvqvtOI9Ls9Z9dSX5DJs1t0aLGW362diNqHZEykWZGWsVW3rsqiWyl0ljhYoGxV49fE9RtuBlptqZYJE2aXBpvxuhY3z8lL6P8kkbAYUiarUbtTDIckEvDM/KaSPcQeVWLvod+UwamZqQ5tpYRydKPcmmsqA3DNpGtha9HT1JGacakfbfjTNYPqKRhukx0it2ArE2uzp+kMdtpSJqlnkAS2iqlMVmdFpMXhy5YPVg3Jc1OeCvrPJXSEB0GnLVINW0L9tX5R1PS7KzDvZUlbVXSWFFrH5D34jlAnVyaKWl2tpzJIg61NDQiP5IoV6jmOhPrpqTZyXnL8kJqaTy3sSMMQrXCNGPS7GSHprKsrVKaG2282xcSmfgfLyfNzkaWjNI8nz1GDJFfUJpjR9o4mzQ3oAOoxPKZl5RmZy1p1pKG2GNmr6qkjbJJ8/mu2M6ratMy9p4oes7Za+o9pSsS1HEa7TxJhPuq4jTp7LpKGgvTajTC7VsZEdiZZc829qTbnxq0jtoZe9pJ3XYyZDk8n1VMn25TjAefSDm9HkkT7DZTSbOz9naoLmli9ohNFvPEJUtyzDB3u1E+7T3x8kWURieLnQ1DDkszK7uyzK1LviEWRmFegOc4SFwbUJXzhJpO5rZMvPxPlPYjhTRLmdtEWLoEG4+LJY2eH8GCMpZ7HKHFOVAX/6b+f5vEy5vmwhu/U9v60q4tSZPGHKxgxTlZNlXHix7NPTKjiTlQrZiDFaz38yLJRLGipz8bZWs1ZFvWE7B2P865se6STTuxySjmnBW6+XSUcilH2Fm+I2L+mIsp/UF+/rO0mTRb857SnoAta+kGUbvXorWTDfJZQeOT6uyDaGZLoycoXRAxP+f1s/mT/HyxWfWsWHKWSB8u4WH6lWgjKN9gjeIJ9qhwsSIYRcroF3VP4NBG7RO31vxEfyxvJq1nx9iOolFjU+c7jy2EMWqxrfxsmQtrxqLmjg9CeVHTatT+5NZKIU1aOd/8xX5Ne9WQvQXe8vDW5V8aTKcDfqwLrZGsw4wbRBbgRsuG1KtHnXKFenrz49PFxacf7DX/rS1YnyamFJdBs8WvsxiFLROKcxvcLl+gprNOmbVqIn9zTbrSJi8sSkQ6IeX60+S3p6zrbJDXibCXdrR8v5DWTk9eJ+dcRL+jKc3q9gvFVk+/L5y21Gkwwz4taGLal2mcj7B0tno2P/6Mlf34OJekuebW2uo0yr18HwEOxuwQ4G5tFp135fUPQxK/h8k7fR7gIo1BQWindPGBevv57u+maPltyHuVdrsndFRVmz2xT2ShQDiI1FvcRrCwkUC9ro9pazbJcbfNUtKQzj4C24cmyAbtkRFv/cr5VWgM2gVBml9NYLMbIOSyOSrvXXjW9xZv38Zia1mhmNMt28JehIK2hRvxinCQmjRBlJZ0DbwWtrtOhnRNRzqQxkx7Wme2UrZJhttzPBPBti7ONh1nUpwjb8fmj0zIqYIWpHJSds03a/kEa/ZDtJhOunPhZeD+xLyzghxpxamaPg7MQ91j82dCFqZBYxg+SdMj06amT9K0fvLLEiOT1jy2WsHEWeeCswKeej41l+/wWvwyB5Mn3RbtlFvG1FRZmzszaa1IwYaIoRrqtYQbakzV0OJeGjLIfocDSZAnbsgz0xsUrw+IyXxbSDgUcBeu9Lkz4axgsUaSjptxRBUszTDv7KS9/miu7HvRr7AcBxmqKA5W3lN2nu02n8JeFRJTU1y0KMHfXbrKh5HpQp8CZLfVDGfp+gMcSG4RTHufQ+WqOEecy2nvbj6Ax60z6YW8d2lati251I1z622mDQcN5dWoR5MNtVWcbbsa9dbVuhI1Uia9cTFibxNtlXKBY7O11A617kXFKJhpX/h886R3yWel8rwV7f8KOiNX4S00djDY6HLx44eJylv4+WXRIzMp+4/11urrsT2M/KA/WBNkyLg7f168TVwQVvl+uU2t/xq6tRG5iJ3exM4JdQXo/rGdOhwYHp30nORF7PRe9ufLvUJltLPRaZ8+Tsf3/UajfzYeDU73N6qTqzm++Xz+7br3PJk8966uTz4fbXWdBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFLxfxzi/h9BHyQ0AAAAAElFTkSuQmCC">
+          <div class="proj1-details">
+            <i class="fab fa-figma"></i>
+            <h2>Figma</h2>
+            <h2>Canva</h2>
+            <h2>Adobe XD</h2>
+            <p>Prototyping, Keyframing and Logo Creation</p>
+            
+          </div>
+        </div>
+
+        <div class="proj-2">
+          <img src="https://th.bing.com/th/id/OIP.Y-vLhKwztu9Y-Nf5bqkgJgHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7">
+          <div class="proj2-details">
+            <i class="fab fa-python"></i>
+            <i class="fab fa-java"></i>
+            <i class="fab fa-c"></i>
+            <h2>Python</h2>
+            <h2>Java</h2>
+            <h2>C Programming</h2>
+            <p>Problem solving abilities
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="contact" id="contact-me">
+    <div class="container">
+      <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p class="mail">
+          Get in touch with me <i class="fas fa-arrow-right"></i> bharathkumar161203@gmail.com
+        </p>
+        <p class="links">Or find me on:</p>
+        <a href="https://www.linkedin.com/in/bharathkumar-m-7b8105314/" target="blank"><i class="fab fa-linkedin">
+            Linkedin</i></a>
+        <a href="https://github.com/bharath162003" target="blank"><i class="fab fa-github"></i> Github</a>
+        <a href="https://twitter.com/bharathkum83521" target="blank"><i class="fab fa-twitter"> Twitter</i></a>
+        <a href="https://www.instagram.com/mb._kumar._mbk/" target="blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <div class="work-arrow-2">
+          <p>
+            <a href="#home-page">Go to Home Page <i class="fas fa-arrow-up"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- JAVASCRIPT -->
+  <script src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
